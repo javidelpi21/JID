@@ -1,0 +1,25 @@
+h1{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    
+}
+.menu{
+    display: flex;
+    column-gap: 100px;
+    /*column gap es para separar dentro de un flex*/
+    justify-content: center;
+    /*hace que lo que haya dentro del flex se centre*/
+}
+.barra{
+    background-color: black;
+    padding: 8px;
+   
+}
+.barra a{
+    color: white;
+    text-decoration: none;
+}
+.menu li{
+    list-style: none;
+}
